@@ -1,0 +1,39 @@
+
+.people_main .profile_page .people_header{
+    border: 1px solid rgb(206, 202, 202);
+}
+
+.people_main .profile_page .suggested{
+    margin-top: 40px;
+    margin-left: 150px;
+    line-height: 40px;
+}
+
+.people_main .profile_page .suggested .suggeted_word{
+    font-weight: 700;
+    color: rgba(var(--f52,142,142,142),1);
+}
+
+.profile_page .people_profile{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    cursor: pointer;
+    width: 900px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.profile_page .people_profile img{
+    border-radius: 50%;
+    width: 60px;
+    margin-right: 20px;
+}
+
+.profile_page .add_people img{
+    float: right;
+    margin-top:-40px;
+    margin-right: 400px;
+    width: 30px;
+}

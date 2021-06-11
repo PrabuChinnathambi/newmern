@@ -1,0 +1,79 @@
+.welcome_page{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.welcome_page .welcome_left img{
+    margin-top: 50px;
+    margin-right: 60px;
+    width: 600px;
+}
+
+.welcome_page .welcome_right{
+    margin-top: 100px;
+}
+
+.welcome_page .welcome_right h1{
+    font-weight:800;
+    line-height: 30px;
+    font-size: 70px;
+}
+.welcome_page .welcome_right h3{
+    font-weight:800;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.welcome_page .welcome_right button{
+    padding: 13px;
+    margin: 10px;
+    width: 250px;
+    border: 1px solid #00DDDD;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 16px;
+    background-color: white;
+    color: #00DDDD;
+}
+
+.welcome_page .welcome_right button:hover{
+    background-color: #00DDDD;
+    color: white;
+}
+.copywrite{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .welcome_page{
+        display: block;
+        text-align: center;
+    }
+    .welcome_page .welcome_left img{
+        margin-left: 27px;
+        width: 300px;
+    }
+    .welcome_page .welcome_right{
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+    
+    .welcome_page .welcome_right h1{
+        font-weight:800;
+        line-height: 20px;
+        font-size: 50px;
+    }
+    .welcome_page .welcome_right h3{
+        font-weight:800;
+        line-height: 50px;
+        font-size: 30px;
+    }
+    .copywrite{
+        text-align: center;
+        margin-top: 45px;
+    }
+}

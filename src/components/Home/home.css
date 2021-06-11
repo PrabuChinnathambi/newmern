@@ -1,0 +1,160 @@
+.home_page{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.home_page .home_left {
+    width: 180px;
+    margin-top: 10px;
+
+}
+.home_page .home_left .logo img{
+    width: 80px;
+}
+
+.home_page .home_left .home_links{
+    padding-right: 20px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.home_page .home_left .home_links .logo img{
+    width: 90px;
+}
+
+
+.home_page .home_left .home_links .navi_links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 28px;
+    line-height: 50px;
+}
+
+/* .home_page .home_left .home_links .navi_links .home_links{
+    border: 1px solid black;
+    width: 30px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+
+} */
+.home_page .home_left .home_links .navi_links .home_links img{
+    
+
+    
+    margin-left: 4px;
+    
+}
+
+.home_page .home_left .home_links .navi_links .home img{
+   width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home_page .home_middle{
+    width: 750px;
+    border: 1px solid rgb(231, 230, 230);
+    border-top: none;
+    border-bottom: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 15px;
+}
+
+.home_middle .top_dt{
+    display: flex;
+    font-weight: 900;
+}
+.home_middle .top_dt .title{
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.home_middle .top_dt .current_user{
+    float: right;
+    text-align: right;
+    width: 650px;
+}
+
+
+
+/* .home_middle .whats_trending{
+    display: flex;
+    
+}
+
+.home_middle .profile_pic img{
+    margin-top: 4px;
+    width: 70px;
+}
+.home_middle .textarea textarea{
+    border-style: none; 
+    border-color: Transparent; 
+    overflow: auto;  
+    width: 600px;
+    height: 80px;
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 12px;
+    padding: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.home_middle .treand_links{
+    margin-top: 10px;
+    display: flex;
+}
+.home_middle .treand_links img{
+    width: 30px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.home_middle .treand_links button{
+    width: 130px;
+    height: 32px;
+    border: 1px solid #00DDDD;
+    border-radius: 20px;
+    background-color: #00DDDD;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    margin-left: 330px;
+} */
+
+
+
+
+.home_page .home_right{
+    margin-left: 10px;
+    width: 300px; 
+    margin-top: 20px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .home_page .home_left {
+        display: none;
+    }
+    .home_page .home_right{
+        display: none;
+    }
+  }

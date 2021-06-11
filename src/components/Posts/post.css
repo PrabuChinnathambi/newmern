@@ -1,0 +1,114 @@
+.post_main .whats_trending{
+    display: flex;
+    
+}
+
+.post_main .profile_pic img{
+    margin-top: 4px;
+    width: 70px;
+}
+.post_main .textarea textarea{
+    border-style: none; 
+    border-color: Transparent; 
+    overflow: auto;  
+    width: 600px;
+    height: 80px;
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 12px;
+    padding: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.post_main .treand_links{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.post_main .treand_links img{
+    width: 30px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.post_main .treand_links button{
+    width: 130px;
+    height: 32px;
+    border: 1px solid #00DDDD;
+    border-radius: 20px;
+    background-color: #00DDDD;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    margin-left: 380px;
+    margin-top: 9px;
+}
+.post_main .treand_links .image-upload>input {
+    display: none;
+  }
+
+.post_main .treand_links .image-upload .icon{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    padding: 4px;
+}
+.post_main .treand_links .image-upload .icon img{
+    width: 20px;
+    margin-right: 6px;
+}
+
+.post_main .treand_links .image-upload:hover{
+    border: 1.5px solid #00DDDD;
+    border-radius: 20px;
+}
+
+.post_main .allposts_main {
+    padding: 15px;
+}
+
+
+.post_main .allposts_main .post_card{
+    cursor: pointer;
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 5px;
+    padding: 13px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    background-color: whitesmoke;  
+    
+}
+  
+
+.post_main .post_profile_pic{
+    display: flex;
+    align-items: center;   
+}
+.post_main .post_profile_pic h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.post_main .allposts_main .post_profile_pic img {
+    margin-right: 10px;
+    width: 60px;
+    border-radius: 60%;
+}
+
+.post_main .allposts_main .post_card .post_inside{
+    margin-left: 70px;
+}
+.post_main .allposts_main .post_pic img{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.post_main .allposts_main .post_card .like_count{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.post_main .allposts_main .post_card .like_count .like_image{
+    margin-right: -10px;
+}
